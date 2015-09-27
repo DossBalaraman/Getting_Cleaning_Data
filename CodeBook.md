@@ -10,12 +10,19 @@ Output files: Cleaned_Merged.txt & Avg_Actv_Subj.txt
 
  
 Variable name	Description
+
 subject	ID the subject who performed the activity for each window sample. Its range is from 1 to 30.
+
 activity	Activity name
+
 featDomain	Feature: Time domain signal or frequency domain signal (Time or Freq)
+
 featInstrument	Feature: Measuring instrument (Accelerometer or Gyroscope)
+
 featAcceleration	Feature: Acceleration signal (Body or Gravity)
+
 featVariable	Feature: Variable (Mean or SD)
+
 featJerk	Feature: Jerk signal
 featMagnitude	Feature: Magnitude of the signals calculated using the Euclidean norm
 featAxis	Feature: 3-axial signals in the X, Y and Z directions (X, Y, or Z)
